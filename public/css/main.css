@@ -1,0 +1,1686 @@
+
+/* GLOBAL CSS */
+
+@font-face {
+	font-family: "Inter-Bold";
+	src: url("../font/Inter-Bold.otf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Inter-ExtraBold" ;
+	src: url("../font/Inter-ExtraBold.otf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Inter-Medium";
+	src: url("../font/Inter-Medium.otf");
+	font-weight: 400;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.conteiner {
+	max-width: 1500px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul{
+	text-decoration: none;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	list-style: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.yellow{
+   color: #E3A623;
+}
+
+.btn{
+    color: #fff;
+    background-color: #E3A623;
+    padding: 18px 20px;
+    font-family: "Inter-ExtraBold";
+    font-size: 18px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+
+
+.btn-nav{
+    color: #fff;
+    background-color: #E3A623;
+    padding: 18px 20px;
+    font-family: "Inter-ExtraBold";
+    font-size: 18px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.modal-btn-osob{
+    color: #fff;
+    background-color: #E3A623;
+    padding: 20px 40px;
+    font-family: "Inter-ExtraBold";
+    font-size: 20px;
+    border: none;
+    margin-left: 270px;
+}
+
+.btn-os{
+    color: #fff;
+    background-color: #E3A623;
+    padding: 20px 40px;
+    font-family: "Inter-ExtraBold";
+    font-size: 20px;
+    border: none;
+}
+
+.modal-btn{
+    color: #fff;
+    background-color: #E3A623;
+    padding: 20px 40px;
+    font-family: "Inter-ExtraBold";
+    font-size: 20px;
+    border: none;
+}
+
+.pd-vntr{
+    padding: 100px 0 100px 0;
+}
+
+.boxs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    font-family: "Inter-ExtraBold" ;
+    font-size: 40px;
+}
+
+h3{
+    font-family: "Inter-ExtraBold";
+    font-size: 26px;
+}
+
+.text{
+    font-family: "Inter-Medium";   
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.text_osob{
+    font-family: "Inter-Medium";   
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.white{
+    color: #fff;
+}   
+
+.baner-one{
+    width: 100%;
+    height: 1000px;
+	background: url("../img/baner-one.png") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.baner-two{
+    width: 100%;
+    height: 1000px;
+	background: url("../img/baner-two.png") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.baner-four{
+    width: 100%;
+    height: 1000px;
+	background: url("../img/baner-four.png") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+} 
+
+.baner-five{
+    width: 100%;
+    height: 1000px;
+	background: url("../img/baner-five.png") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+} 
+
+.baner-vak-opred{
+    width: 100%;
+    height: 500px;
+	background: url("../img/baner-five.png") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+
+/* GLOBAL CSS */
+
+
+
+/* INDEX */
+
+
+
+/* header */
+
+.menu{
+    margin-top: 30px;
+}
+
+.black{
+    color: #000;
+}
+
+.menu-logo{
+    font-family: "Inter-ExtraBold" ;
+    font-size: 20px;
+}
+
+.menu-text{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter-Bold" ;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.menu-box{
+    margin-left: 30px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline
+}
+
+.menu-boxs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header-section */
+
+.section{
+    margin-top: 250px;
+}
+
+.title-text{
+    color: #fff;
+    font-family: "Inter-ExtraBold";    
+    font-size: 60px;
+}
+
+.title-text-black{
+    color: #000000;
+    font-family: "Inter-ExtraBold";    
+    font-size: 60px;
+}
+
+.text-title{
+    color: #fff;
+	font-family: "Inter-Medium" ;   
+    font-size: 24px;
+    padding: 16px 0 50px 0;
+}
+
+/* header-section */
+
+/* header */
+
+/* section-two */
+
+.box{
+    max-width: 570px;
+}
+
+/* section-two */
+
+/* Новинки и хиты */
+
+.otstup {
+    margin-top: 100px;
+}
+
+.smes-png {
+    width: 300px;
+    height: 300px;
+}
+
+.triger-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.hard-yellow {
+    position: absolute;
+    margin-left: 280px;
+}
+
+.card {
+    border: 10px solid #E3A623;
+    padding: 20px 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.smes-title {
+    font-family: "Inter-Medium";
+    font-size: 16px;
+    margin-top: 10px;
+    color: #000;
+}
+
+.smes-text {
+    font-family: "Inter-Medium";
+    font-size: 12px;
+    margin-top: 10px;
+    color: #000;
+}
+
+.smes-box {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.smes-price {
+    font-family: "Inter-Medium";
+    font-size: 18px;
+    margin-right: 10px;
+    color: #000;
+}
+
+/* Карточки в горизонтальном направлении */
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: nowrap; /* Чтобы карточки не переносились */
+    overflow-x: auto; /* Добавлено горизонтальное прокручивание */
+    padding-bottom: 20px; /* Добавлено для красоты */
+}
+
+.card-body{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Новинки и хиты */
+
+
+/* Оптовая продажа */
+
+.bg-opt{
+    width: 100%;
+	background: url("../img/bg-opt.png") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+/* Оптовая продажа */
+
+/* почему мы */
+
+.left{
+    margin-left: 10px;
+}
+
+.boxs-plus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tick{
+    height: 30px;
+    width: 30px;
+}
+
+.h2{
+    margin-left: 40px;
+}
+
+.box-pl{
+    max-width: 750px;
+}
+
+
+/* почему мы */
+
+/* section-four */
+
+.bg-one{
+    width: 100%;
+    height: 1000px;
+	background: url("../img/bg-one.png") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.title-news{
+    text-align: center;
+    color: #fff;
+}
+
+.text-news{
+    text-align: center;
+    color: #fff;
+}
+
+/* slider */
+
+.img-slider {
+    width: 450px;
+    height: 200px;
+}
+
+.text-slider-one {
+    max-width: 400px;
+    padding: 25px;
+    color: #fff;
+    font-size: 18px;
+    opacity: 60%;
+}
+
+.slider-box {
+    background-color: #d9d9d925;
+    margin-right: 95px;
+}
+
+.slider {
+    padding-top: 60px;
+    margin: 0 auto;
+    width: 100%; /* Изменено на 100% */
+    max-width: 1500px; /* Добавлено */
+    height: 500px;
+    overflow: hidden;
+    position: relative; /* Добавлено */
+}
+
+.slider-container {
+    position: relative; /* Добавлено */
+    display: flex;
+    width: 100%; /* Изменено на 100% */
+    height: 100%; /* Добавлено */
+}
+
+.slider-boxs {
+    position: absolute; /* Изменено */
+    display: flex;
+    width: max-content; /* Добавлено */
+    height: 100%; /* Добавлено */
+    left: 0;
+    transition: all ease-in .2s;
+}
+
+.slider-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Добавлено */
+    position: absolute;
+    transform: translateY(-50%);
+    width: 100%; /* Добавлено */
+    left: 0; /* Добавлено */
+}
+
+.arrow-prev {
+    margin-right: 15px;
+}
+
+.slider-btn {
+    font-size: 90px;
+    background: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.preim-card:hover {
+    background: #E3A623;
+    transition: .3s;
+}
+
+.preim-card:hover .preim-text {
+    color: #fff;
+    transition: .3s;
+}
+
+.preim-card:hover .yellow {
+    color: #fff;
+    transition: .3s;
+}
+
+/* slider */
+
+
+/* section-four */
+
+/* section-six */
+
+.preim-box{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.preim-card{
+    display: flex;
+    background-color: #fff;
+    width: 700px;
+    height: 300px;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.062);
+}
+
+.preim-text{
+    margin-left: 170px;
+    margin-top: 40px;
+}
+
+.card-text{
+    max-width: 460px;
+}
+
+.svg-preim{
+    position: absolute;
+    margin-left: -120px;
+}
+
+/* section-six */
+
+/* section-seven */
+
+.bg-two{
+    width: 100%;
+	background: url("../img/bg-two\ \(2\).png") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+/* section-seven */
+
+/* отзывы */
+
+.container{
+    max-width: 1650px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.otxv-img{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.slider-two{
+    margin-top: 10px;
+    padding: 30px 110px 50px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 640px;
+    overflow: hidden;
+}
+
+.slider-boxs-two{
+    position: relative;
+    display: flex;
+    width: 1500px;
+    height: 640px;
+    left: 0;
+    transition: all ease-in .2s;
+}
+
+.slider-box-two{
+    background-color: #fff;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.049);
+    margin-right: 90px;
+}
+
+.zvezd{
+    padding: 10px 30px 20px 30px;
+    min-width: 400px;
+}
+
+.zvezd-img{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 20px; 
+}
+
+.slider-span {
+    padding-left: 33px;
+}
+
+/* отзывы */
+
+/* section-eight */
+
+.form-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text-form{
+    max-width: 500px;
+}
+
+.inp{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.name-inp{
+    font-family: "Inter-Medium";
+	font-size: 24px;
+    padding-left: 30px;
+    width: 640px;
+    height: 120px;
+    border: none;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.032);
+}
+
+.fail-imp{
+    font-family: "Inter-Medium";
+	font-size: 24px;
+    padding-left: 30px;
+    width: 340px;
+    height: 60px;
+    border: none;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.032);
+}
+
+.email-imp{
+    font-family: "Inter-Medium";
+    padding-left: 30px;
+	font-size: 24px;
+    width: 650px;
+    height: 60px;
+    border: none;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.032);
+}
+
+.email-imp::placeholder{
+    font-family: "Inter-Medium";
+	color: #0000002f;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.fail-imp::placeholder{
+    font-family: "Inter-Medium";
+	color: #0000002f;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.name-inp::placeholder{
+	font-family: "Inter-Medium";
+	color: #0000002f;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.text-imp{
+    font-family: "Inter-Medium";
+    padding-left: 30px;
+	font-size: 24px;
+    width: 650px;
+    height: 60px;
+    border: none;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.032);
+}
+
+.text-imp::placeholder{
+	font-family: "Inter-Medium";
+	color: #0000002f;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.imp-fail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imp-fail-opt{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.prozr-text{
+    font-family: "Inter-Medium";
+	font-size: 20px;
+    opacity: 50%;
+    color: #000000;
+}
+
+.prozr-text-white{
+    font-family: "Inter-Medium";
+	font-size: 20px;
+    opacity: 50%;
+    color: #ffffff;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    outline: solid;
+    outline-width: 5px;
+    outline-color: #000000;
+    margin-left: 10px;
+}
+
+/* section-eight */
+
+/* footer */
+
+.bg-three{
+    width: 100%;
+	background: url("../img/bg-three.png") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box:nth-child(2){
+    margin-top: 50px;
+}
+
+.footer-carg{
+    max-width: 300px;
+}
+
+.footer-text{
+    margin-top: 10px;
+    opacity: 60%;
+}
+
+/* footer */
+
+
+/* INDEX */
+
+
+/* ABOUT */
+
+
+/* slider three */
+
+.container{
+    max-width: 1650px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.kollegi-text{
+    text-align: center;
+}
+
+.slider-three{
+    padding: 60px 140px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 550px;
+    overflow: hidden;
+}
+
+.slider-boxs-three{
+    text-align: center; 
+    position: relative;
+    display: flex;
+    width: 1500px;
+    height: 550px;
+    left: 0;
+    transition: all ease-in .2s;
+}
+
+.slider-box-three{
+    background-color: #fff;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.049);
+    margin-right: 90px;
+    padding: 30px 45px 10px 45px;
+}
+
+.text-bold{
+    font-family: "Inter-Bold";
+    font-size: 24px;
+    
+}
+
+.kollegi-text-slider{
+    min-width: 380px;
+}
+
+.zvezd-img{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 30px; 
+}
+
+.slider-span {
+    padding-left: 33px;
+}
+
+/* рассылка */
+
+.bg-rassl{
+    width: 100%;
+	background: url("../img/rasslka.png") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+
+.rassl-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.otst-fif{
+    padding-top: 50px;
+}
+
+.obvod-form{
+    background: none;
+    outline: solid;
+    outline-width: 10px;
+    outline-color: #ffffff;
+    height: 45px;
+    width: 620px;
+    font-family: "Inter-ExtraBold";
+    font-size: 18px;
+    border: none;
+    padding-left: 30px;
+}
+
+.obvod-form::placeholder{
+	font-family: "Inter-Bold";
+	color: #ffffff;
+	font-size: 24px;
+}
+
+.dop-btn{
+    color: #fff;
+    background-color: #E3A623;
+    padding: 18px 60px;
+    font-family: "Inter-ExtraBold";
+    font-size: 18px;
+    border: none;
+}
+
+/* рассылка */
+
+/* ABOUT */
+
+/* slider four */
+
+.container{
+    max-width: 1650px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.kollegi-text{
+    text-align: center;
+}
+
+.slider-four{
+    padding: 60px 140px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slider-boxs-four{
+    text-align: center; 
+    position: relative;
+    display: flex;
+    width: 1500px;
+    height: 400px;
+    left: 0;
+    transition: all ease-in .2s;
+}
+
+.slider-box-four{
+    background-color: #fff;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.049);
+    margin-right: 90px;
+    padding: 10px 45px 10px 45px;
+}
+
+.text-bold{
+    font-family: "Inter-Bold";
+    font-size: 24px;
+}
+
+
+.kollegi-text-slider{
+    min-width: 380px;
+}
+
+.zvezd-img{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 30px; 
+}
+
+.slider-span {
+    padding-left: 33px;
+}
+
+/* slider four */
+
+
+/* slider five */
+
+.box-vakansi{
+    max-width: 700px;
+}
+
+.slider-five{
+    padding: 60px 140px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slider-boxs-five{
+    position: relative;
+    display: flex;
+    width: 1500px;
+    height: 400px;
+    left: 0;
+    transition: all ease-in .2s;
+}
+
+.slider-box-five{
+    background-color: #fff;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.049);
+    margin-right: 90px;
+    padding: 30px 10px 10px 80px;}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 90px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(255, 255, 255, 0.319);
+}
+
+.modal-vak{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 90px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(255, 255, 255, 0.319);
+}
+
+.modal_content {
+    position: relative;
+    background: url("../img/modal-one.png") no-repeat;
+    margin: auto;
+    padding: 20px 0;
+    width: 1150px;
+    height: 800px;
+}
+
+.modal_content-opt {
+    position: relative;
+    background: url("../img/modal-opt.png") no-repeat;
+    margin: auto;
+    padding: 20px 0;
+    width: 1150px;
+    height: 800px;
+}
+
+.modal-content-vak{
+    position: relative;
+    background: url("../img/modal-two.png") no-repeat;
+    margin: auto;
+    padding: 20px 0;
+    width: 1150px;
+    height: 800px;
+}
+
+.align{
+    text-align: center;
+}
+
+/* slider five */
+
+/* form */
+.otst{
+    margin-left: 190px;
+    margin-top: 30px;
+}
+
+.inp{
+    width: 760px;
+    height: 120px;
+    border: none;
+    background-color: #ffffff44;
+    font-size: 24px;
+    color: #fff;
+    font-family: "Inter-Bold";
+    padding-left: 30px;
+
+}
+
+.inp-opt{
+    width: 760px;
+    height: 90px;
+    border: none;
+    background-color: #ffffff44;
+    font-size: 24px;
+    color: #fff;
+    font-family: "Inter-Bold";
+    padding-left: 30px;
+
+}
+
+.inp-opt::placeholder{
+    font-family: "Inter-Bold";
+    font-size: 24px;
+    color: #fff;
+    padding-left: 30px;
+}
+
+
+.inp::placeholder{
+    font-family: "Inter-Bold";
+    font-size: 24px;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.form-modal{
+    padding: 60px 200px;
+}
+/* form */
+
+/* каталог фильтры и поиск */
+
+.poisk_inp{
+    width: 490px;
+    height: 61px;
+    border: none;
+    outline: solid;
+    outline-width:10px;
+    outline-color: #E3A623;
+    background: inherit;
+    font-family: "Inter-Medium";
+	font-size: 20px;
+    padding-left: 20px;
+}
+
+.poisk-box{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    align-content: center;
+    align-items: center;
+}
+
+
+.poisk-boxs{
+    display: flex;
+    align-items: center;
+}
+
+.poik{
+    padding: 24px 20px;
+    background-color: #E3A623;
+    border: none;
+    color: #fff;
+  }  
+
+  .option{
+    background: inherit;
+    border-color: #ffffff;
+  }
+  
+  .menu-poisk-filtr{
+    font-family: "Inter-ExtraBold";
+    font-size: 22px ;
+    padding-left: 40px;
+    padding-right: 5px;
+  }
+
+/* каталог фильтры и поиск */
+
+/* номера страниц */
+
+.ctr{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: flex-end
+}
+/* Скрыть дефолтные стили пагинации */
+.pagination-links {
+    display: none;
+}
+
+/* Стилизация стрелок */
+.pagination-arrows a {
+    color: #000; /* Цвет иконок */
+    font-size: 24px; /* Размер иконок */
+    text-decoration: none; /* Убрать подчеркивание */
+    margin: 0 5px; /* Отступы между стрелками */
+}
+
+.pagination-arrows a.disabled {
+    pointer-events: none; /* Отключить кликабельность для неактивных стрелок */
+    color: #ccc; /* Цвет неактивных стрелок */
+}
+
+.cifra{
+    margin-right: 20px;
+    padding: 10px 15px;
+    background-color: #E3A623;
+    font-family: "Inter-Medium";
+	font-size: 18px;
+    justify-content: flex-end
+}
+
+/* номера страниц */
+
+/* вакансии */
+
+.poisk_inp-two{
+    width: 880px;
+    height: 61px;
+    border: none;
+    outline: solid;
+    outline-width:10px;
+    outline-color: #E3A623;
+    background: inherit;
+    font-family: "Inter-Medium";
+	font-size: 20px;
+    padding-left: 20px;
+}
+
+.poisk-boxs-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vakansia-box{
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.032);
+    padding: 25px 25px;
+}
+
+.prozr-text-otst{
+    margin-left: 20px;
+}
+
+.vakansia-boxs{
+    display: flex;
+}
+
+.vakansia-title{
+    font-family: "Inter-Bold";
+    font-size: 30px;
+    margin-top: 34px;
+    color: #000000;
+}
+
+.vakansia-text{
+    margin-top: 10px;
+    font-family: "Inter-Medium";
+	font-size: 20px;
+    color: #000000;
+}
+
+/* вакансии */
+
+/*определенная вакансия */
+
+.section-vak{
+    padding: 90px 0 150px 0;
+}
+
+.otst-niz{
+    margin-bottom: 40px;
+}
+
+.vak-zag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vak-zag-box-text{
+    margin-top: 10px;
+    font-family: "Inter-Bold";
+	font-size: 36px;
+}
+
+.vak-zag-box{
+    text-align: center;
+}
+
+/*определенная вакансия */
+
+/*резюме */
+
+.rezume{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.rezume-modal{
+    display: flex;
+}
+
+.modal-fail{
+    display: block;
+    display: flex;
+    align-items: center;
+}
+
+.modal-sslka{
+    display: none;
+}
+
+.text-imp-os{
+    font-family: "Inter-Medium";
+    padding-left: 30px;
+	font-size: 24px;
+    width: 300px;
+    height: 60px;
+    border: none;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.032);
+}
+
+.text-imp-os::placeholder{
+	font-family: "Inter-Medium";
+	color: #0000002f;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.text-imp-btn{
+    margin-left: 30px;
+    font-family: "Inter-Medium";
+    padding-left: 30px;
+	font-size: 24px;
+    width: 300px;
+    height: 60px;
+    border: none;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.032);
+}
+
+.text-imp-btn::placeholder{
+	font-family: "Inter-Medium";
+	color: #000000;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.otstp-checkbox{
+    margin-left: 50px;
+}
+
+.dop-kbtn{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/*резюме */
+
+/*Смесь */
+
+.smes-title-str{
+    font-family: "Inter-Medium";
+	font-size: 50px;
+}
+
+.smes-articul{
+    margin-top: 20px;
+    font-family: "Inter-Medium";
+	font-size: 30px;
+}
+
+.smes-box-str{
+    display: flex;
+    align-items: flex-end;
+}
+
+.smes-boxs-two{
+    margin-left: 80px;
+}
+
+
+.smes-boxs{
+    display: flex;
+}
+
+.smes-pic-bol{
+    width: 570px;
+    height: 530px;
+}
+
+.smes-pic-min{
+    width: 160px;
+    height: 151px;
+}
+
+.smes-nazn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.text-sves{
+    font-family: "Inter-Medium";
+	font-size: 28px;
+}
+
+/*Смесь */
+
+/*Корзина*/
+
+.korxina-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.korxina-boxs{
+    display: flex;
+    margin-top: 30px;
+}
+
+.vbr{
+    font-family: "Inter-Medium";
+	font-size: 20px;  
+    margin-left: 30px;
+}
+
+.card-korzina{
+    border: 10px solid #E3A623;
+    padding: 20px 20px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.smes-korz{
+    width: 200px;
+    height: 200px;
+}
+
+.card-korzina-chast{
+    margin-left: 40px;
+}
+
+.korzina-text-dop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.korzina-text-img{
+    margin-top: 130px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.itog-korz{
+    font-family: "Inter-Medium";
+	font-size: 22px;  
+}
+
+.cena-korz{
+    font-family: "Inter-Medium";
+	font-size: 22px;  
+    margin-left: 24px;
+}
+
+.card-korzina-itog{
+    border: 10px solid #E3A623;
+    padding: 20px 20px;
+    margin-top: 30px;
+}
+
+.text-korzina-itog{
+    font-family: "Inter-Medium";
+	font-size: 26px;
+}
+
+.text-korzina-itog-two{
+    font-family: "Inter-Medium";
+	font-size: 26px;
+    margin-left: 200px;
+}
+
+.mesto{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.ruls-korz{
+    font-family: "Inter-Medium";
+	font-size: 12px;
+    opacity: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*Корзина*/
+
+/*Пофиль*/
+
+.profil-title{
+    font-family: "Inter-Medium";
+	font-size: 26px;
+}
+
+.profil-text{
+    font-family: "Inter-Medium";
+	font-size: 26px;
+    opacity: 50%;
+    margin-top: 30px;
+}
+
+.profil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inf-profil{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inf-profil-box{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.032);
+    width: 700px;
+    padding: 40px 20px 40px 20px;
+}
+
+.inf-profil-box-text{
+    font-family: "Inter-Medium";
+	font-size: 30px;
+}
+
+.card-korzina-itog-profil{
+    border: 10px solid #E3A623;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card-korzina-itog-text{
+    font-family: "Inter-Medium";
+	font-size: 12px;
+    margin-top: 70px;
+}
+
+.card-korzina-itog-text-two{
+    font-family: "Inter-Medium";
+	font-size: 12px;
+    margin-top: 140px;
+}
+
+
+
+.profil-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil-box {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.profil-box input {
+    border: none;
+    opacity: 50%;
+    padding-top: 10px;
+    padding-left: 2px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    
+}
+
+.profil-title{
+    font-family: "Inter-Medium";
+	font-size: 26px;
+    
+}
+
+.profil-text{
+    font-family: "Inter-Medium";
+	font-size: 26px;
+    opacity: 50%;
+    margin-top: 30px;
+}
+/*Пофиль*/
+
+/*Оформление*/
+
+.oform-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.oform-slider-text{
+    font-family: "Inter-Medium";
+	font-size: 26px;
+    margin-top: 20px;
+}
+
+.oform-button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card-oform-slider{
+    border: 10px solid #E3A623;
+    padding: 20px 20px;
+    margin-top: 30px;
+}
+
+.option-samovvs{
+    font-family: "Inter-ExtraBold";
+    font-size: 22px ;
+    padding-left: 40px;
+    padding-right: 5px;
+}
+
+.option-samov{
+    bottom: none;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.032);
+    width: 530px;
+    height: 50px;
+    margin-top: 20px;
+    border-color: #ffffff;
+  }
+
+.samovvs-imp{
+    margin-top: 20px;
+    font-family: "Inter-Medium";
+	font-size: 24px;
+    padding-left: 30px;
+    width: 500px;
+    height: 100px;
+    border: none;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.032);
+}
+
+.samovvs-imp::placeholder{
+    font-family: "Inter-Medium";
+	color: #0000002f;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.text-imp-btn-bel{
+    font-family: "Inter-Medium";
+    font-size: 24px;
+    padding: 10px 60px;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.032);
+}
+
+.text-imp-btn-ser{
+    font-family: "Inter-Medium";
+    font-size: 24px;
+    padding: 10px 60px;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.032);
+    border : none;
+}
+
+.form-samovvs{
+    display: block;
+}
+
+.otst-left{
+    margin-left: 20px;
+}
+
+.otst-verx{
+    margin-top: 20px;
+}
+
+.otst-verx-card{
+    margin-top: 70px;
+}
+
+.text-imp-adres{
+    font-family: "Inter-Medium";
+    padding-left: 30px;
+	font-size: 24px;
+    width: 225px;
+    height: 60px;
+    border: none;
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.032);
+}
+
+.text-imp-adres::placeholder{
+	font-family: "Inter-Medium";
+	color: #0000002f;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.form-dostavka{
+    display: none;
+}
+
+.card-korzina-itog-oplata{
+    border: 10px solid #E3A623;
+    padding: 20px 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.ml{
+    padding-left: 100px;
+}
+
+/*Оформление*/

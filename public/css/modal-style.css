@@ -1,0 +1,12 @@
+/* custom-modal.css */
+.modal-content {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+}
+/* modal-style.css */
+.modal-dialog {
+    max-width: 600px; /* Пример стиля для ширины модального окна */
+    margin: 1.75rem auto;
+}
