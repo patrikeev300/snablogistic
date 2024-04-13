@@ -40,16 +40,6 @@
         </div>
     </div>
 </section>
-<!-- 
-    <section>
-        <div class="conteiner">
-            <div class="ctr">
-                <div><p class="cifra">1</p></div>
-                <div><p class="cifra">2</p></div>
-                <div><p>Выбрать страницу</p></div>
-            </div>
-        </div>
-    </section> -->
 
     <div class="otstup">
             <footer class="bg-three">

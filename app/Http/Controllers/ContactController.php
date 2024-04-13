@@ -17,18 +17,23 @@ class ContactController extends Controller
         ]);
 
         try {
-            Mail::to('patrikeev100@bk.ru')->send(new ContactFormMail($validatedData));
-            return redirect()->back()->with('success', 'Форма успешно отправлена!');
+            $this->sendEmail($validatedData);
+            return redirect()->back()->with('success', __('messages.form_success'));
         } catch (\Exception $e) {
-            return redirect()->back()->with('error', 'Ошибка отправки письма: ' . $e->getMessage());
+            // Log the error for detailed analysis
+            \Log::error('Error sending email: ' . $e->getMessage());
+            return redirect()->back()->with('error', __('messages.form_error'));
         }
     }
 
-
-    public function index(){
-
-        return view('kontakt');    
+    private function sendEmail($data)
+    {
+        Mail::to('patrikeev100@bk.ru')->send(new ContactFormMail($data));
     }
 
-    
+    public function index()
+    {
+        return view('kontakt');    
+    }
 }
+
